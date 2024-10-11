@@ -19,7 +19,8 @@ public class HomePage {
 	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']/li[1]")
 	public WebElement linkRegister;
 	
-	
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']/li[2]")
+	public WebElement linkLogin;
 	
 
 }

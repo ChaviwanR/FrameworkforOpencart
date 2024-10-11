@@ -3,12 +3,7 @@ package testCase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.github.javafaker.Faker;
-
-import Utilities.BaseClass;
 import Utilities.CommonMethods;
-import pageObjects.AccountRegistrationPage;
-import pageObjects.HomePage;
 
 public class TC001_AccoutRegistrationTest extends CommonMethods {
 
